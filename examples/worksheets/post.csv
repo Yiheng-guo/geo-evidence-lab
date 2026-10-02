@@ -1,0 +1,4 @@
+﻿query_id,query,engine,mode,context,round,captured_at,status,answer,citations,recommendation,review_note
+q001,小团队如何选择知识协作工具？,synthetic-engine,synthetic-search,synthetic;fresh-session;zh-CN,1,,pending,,,unreviewed,
+q002,协作工具的数据导出需要检查什么？,synthetic-engine,synthetic-search,synthetic;fresh-session;zh-CN,1,,pending,,,unreviewed,
+q003,怎样评估协作工具的迁移成本？,synthetic-engine,synthetic-search,synthetic;fresh-session;zh-CN,1,,pending,,,unreviewed,

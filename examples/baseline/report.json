@@ -1,0 +1,115 @@
+{
+  "version": "0.2.0",
+  "brand": "示例协作云",
+  "data_kind": "synthetic_demo",
+  "status": "baseline_only",
+  "metrics": {
+    "mentioned": {
+      "count": 0,
+      "denominator": 3,
+      "rate": 0.0
+    },
+    "owned_source_cited": {
+      "count": 0,
+      "denominator": 3,
+      "rate": 0.0
+    }
+  },
+  "samples": [
+    {
+      "key": [
+        "q001",
+        "synthetic-engine",
+        "synthetic-search",
+        "synthetic;fresh-session;zh-CN",
+        "1"
+      ],
+      "query": "小团队如何选择知识协作工具？",
+      "record": {
+        "query_id": "q001",
+        "query": "小团队如何选择知识协作工具？",
+        "engine": "synthetic-engine",
+        "mode": "synthetic-search",
+        "context": "synthetic;fresh-session;zh-CN",
+        "round": "1",
+        "status": "ok",
+        "citations": [],
+        "captured_at": "2026-10-01T10:00:00+08:00",
+        "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。",
+        "recommendation": "neutral",
+        "review_note": "模拟标注：回答只给出通用选择标准，未推荐目标品牌。"
+      },
+      "measurement": {
+        "mentioned": false,
+        "owned_source_cited": false,
+        "owned_citations": [],
+        "answer_hash": "270a5ee48e508b7d87aac6a112f66ed5080944d83a4890fd166baac10d7db302"
+      }
+    },
+    {
+      "key": [
+        "q002",
+        "synthetic-engine",
+        "synthetic-search",
+        "synthetic;fresh-session;zh-CN",
+        "1"
+      ],
+      "query": "协作工具的数据导出需要检查什么？",
+      "record": {
+        "query_id": "q002",
+        "query": "协作工具的数据导出需要检查什么？",
+        "engine": "synthetic-engine",
+        "mode": "synthetic-search",
+        "context": "synthetic;fresh-session;zh-CN",
+        "round": "1",
+        "status": "ok",
+        "citations": [],
+        "captured_at": "2026-10-01T10:00:00+08:00",
+        "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。",
+        "recommendation": "neutral",
+        "review_note": "模拟标注：回答只给出通用选择标准，未推荐目标品牌。"
+      },
+      "measurement": {
+        "mentioned": false,
+        "owned_source_cited": false,
+        "owned_citations": [],
+        "answer_hash": "270a5ee48e508b7d87aac6a112f66ed5080944d83a4890fd166baac10d7db302"
+      }
+    },
+    {
+      "key": [
+        "q003",
+        "synthetic-engine",
+        "synthetic-search",
+        "synthetic;fresh-session;zh-CN",
+        "1"
+      ],
+      "query": "怎样评估协作工具的迁移成本？",
+      "record": {
+        "query_id": "q003",
+        "query": "怎样评估协作工具的迁移成本？",
+        "engine": "synthetic-engine",
+        "mode": "synthetic-search",
+        "context": "synthetic;fresh-session;zh-CN",
+        "round": "1",
+        "status": "ok",
+        "citations": [],
+        "captured_at": "2026-10-01T10:00:00+08:00",
+        "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。"
+      },
+      "measurement": {
+        "mentioned": false,
+        "owned_source_cited": false,
+        "owned_citations": [],
+        "answer_hash": "270a5ee48e508b7d87aac6a112f66ed5080944d83a4890fd166baac10d7db302"
+      }
+    }
+  ],
+  "excluded_samples": [],
+  "missing_queries": [],
+  "inputs_hash": "1eb281bb7fed4d9c3b4e7ec42912e9fae68ae7c0dec7bdde84f7a922eb2bbbd4",
+  "limitations": [
+    "仅为发布前现状，不代表效果变化。品牌提及不等于推荐，自有引用不证明支持品牌结论。",
+    "样本来自导入记录，未访问引擎或核验网页；多个轮次可能相关。"
+  ]
+}

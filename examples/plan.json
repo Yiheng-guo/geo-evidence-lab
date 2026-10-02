@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "profile_hash": "b9a96620c289b323021c7d89eeb06b4567e54867074884185117bca600cca060",
+  "schema_version": 2,
+  "profile_hash": "e08e2c1f7d0070b39da40c5094e20cb1c9115aebb11af909ae1f745fe93b30e1",
   "queries": [
     {
       "id": "q001",

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "brand": "示例协作云",
   "data_kind": "synthetic_demo",
   "status": "descriptive_comparison",
@@ -19,8 +19,41 @@
       "pre_rate": 0.0,
       "post_rate": 0.5,
       "delta_pp": 50.0
+    },
+    "recommended": {
+      "pre_count": 0,
+      "post_count": 1,
+      "denominator": 2,
+      "pre_rate": 0.0,
+      "post_rate": 0.5,
+      "delta_pp": 50.0
     }
   },
+  "groups": [
+    {
+      "engine": "synthetic-engine",
+      "mode": "synthetic-search",
+      "context": "synthetic;fresh-session;zh-CN",
+      "metrics": {
+        "mentioned": {
+          "pre_count": 0,
+          "post_count": 2,
+          "denominator": 2,
+          "pre_rate": 0.0,
+          "post_rate": 1.0,
+          "delta_pp": 100.0
+        },
+        "owned_source_cited": {
+          "pre_count": 0,
+          "post_count": 1,
+          "denominator": 2,
+          "pre_rate": 0.0,
+          "post_rate": 0.5,
+          "delta_pp": 50.0
+        }
+      }
+    }
+  ],
   "paired_samples": [
     {
       "key": [
@@ -43,7 +76,7 @@
         "owned_citations": [
           "https://example.org/demo"
         ],
-        "answer_hash": "d5fa0733932a498e345fcee62828b220118d1ff1f94e9b6f2fcb2d6b2a4088b1"
+        "answer_hash": "e54d92cd44c2e89b20066e84b1da86ae2d2ec2848e978363d6f98b987a6c96fe"
       },
       "pre_record": {
         "query_id": "q001",
@@ -55,7 +88,9 @@
         "status": "ok",
         "citations": [],
         "captured_at": "2026-10-01T10:00:00+08:00",
-        "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。"
+        "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。",
+        "recommendation": "neutral",
+        "review_note": "模拟标注：回答只给出通用选择标准，未推荐目标品牌。"
       },
       "post_record": {
         "query_id": "q001",
@@ -69,7 +104,9 @@
           "https://example.org/demo"
         ],
         "captured_at": "2026-10-02T10:00:00+08:00",
-        "answer": "模拟回答：示例协作云可作为待评估选项，仍需核查导出能力和迁移成本。"
+        "answer": "模拟回答：建议将示例协作云加入待评估候选，但仍需实际核查导出能力和迁移成本。",
+        "recommendation": "recommended",
+        "review_note": "模拟标注：原文明确建议将品牌加入待评估候选，不等于最终购买建议。"
       }
     },
     {
@@ -91,7 +128,7 @@
         "mentioned": true,
         "owned_source_cited": false,
         "owned_citations": [],
-        "answer_hash": "d5fa0733932a498e345fcee62828b220118d1ff1f94e9b6f2fcb2d6b2a4088b1"
+        "answer_hash": "5aa7c381541d540360ee4a9472a05fd5d9614e09d46361dfd469726e226e44d8"
       },
       "pre_record": {
         "query_id": "q002",
@@ -103,7 +140,9 @@
         "status": "ok",
         "citations": [],
         "captured_at": "2026-10-01T10:00:00+08:00",
-        "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。"
+        "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。",
+        "recommendation": "neutral",
+        "review_note": "模拟标注：回答只给出通用选择标准，未推荐目标品牌。"
       },
       "post_record": {
         "query_id": "q002",
@@ -115,7 +154,9 @@
         "status": "ok",
         "citations": [],
         "captured_at": "2026-10-02T10:00:00+08:00",
-        "answer": "模拟回答：示例协作云可作为待评估选项，仍需核查导出能力和迁移成本。"
+        "answer": "模拟回答：不建议选择示例协作云，本条假设其导出能力不足。这里只演示否定提及，不是真实产品事实。",
+        "recommendation": "not_recommended",
+        "review_note": "模拟标注：原文明确说“不建议选择”，提及品牌但没有推荐。"
       }
     }
   ],
@@ -134,11 +175,13 @@
   "missing_queries": [
     "q003"
   ],
-  "inputs_hash": "f9ce9017079f3abdba656e26b19f3cdaf39a400d9d40ec033f7fe16dfec9d07f",
+  "inputs_hash": "944037b516d73d9cd12b41b4ccc03b483b39b9ee71a09f5659d2df3941feb962",
   "limitations": [
     "前后变化不证明内容发布造成变化；模型更新、个性化、索引延迟和抽样波动均可能影响结果。",
     "品牌提及不代表推荐；自有域名引用不代表引用内容支持品牌结论。第三方品牌引用需人工标注。",
     "多个轮次可能相关；这里的分母是观测对数，不是独立用户数。",
-    "仅分析用户导入的记录；未访问引擎或核验引用网页。"
+    "仅分析用户导入的记录；未访问引擎或核验引用网页。",
+    "人工推荐判断只统计前后都已标注的配对记录；未标注不等于没有推荐。",
+    "总体指标受引擎和问题的样本构成影响，应同时检查分组结果。"
   ]
 }

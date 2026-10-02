@@ -9,7 +9,9 @@
     "status": "ok",
     "citations": [],
     "captured_at": "2026-10-01T10:00:00+08:00",
-    "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。"
+    "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。",
+    "recommendation": "neutral",
+    "review_note": "模拟标注：回答只给出通用选择标准，未推荐目标品牌。"
   },
   {
     "query_id": "q002",
@@ -21,7 +23,9 @@
     "status": "ok",
     "citations": [],
     "captured_at": "2026-10-01T10:00:00+08:00",
-    "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。"
+    "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。",
+    "recommendation": "neutral",
+    "review_note": "模拟标注：回答只给出通用选择标准，未推荐目标品牌。"
   },
   {
     "query_id": "q003",
