@@ -1,0 +1,38 @@
+[
+  {
+    "query_id": "q001",
+    "query": "小团队如何选择知识协作工具？",
+    "engine": "synthetic-engine",
+    "mode": "synthetic-search",
+    "context": "synthetic;fresh-session;zh-CN",
+    "round": "1",
+    "status": "ok",
+    "citations": [],
+    "captured_at": "2026-10-01T10:00:00+08:00",
+    "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。"
+  },
+  {
+    "query_id": "q002",
+    "query": "协作工具的数据导出需要检查什么？",
+    "engine": "synthetic-engine",
+    "mode": "synthetic-search",
+    "context": "synthetic;fresh-session;zh-CN",
+    "round": "1",
+    "status": "ok",
+    "citations": [],
+    "captured_at": "2026-10-01T10:00:00+08:00",
+    "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。"
+  },
+  {
+    "query_id": "q003",
+    "query": "怎样评估协作工具的迁移成本？",
+    "engine": "synthetic-engine",
+    "mode": "synthetic-search",
+    "context": "synthetic;fresh-session;zh-CN",
+    "round": "1",
+    "status": "ok",
+    "citations": [],
+    "captured_at": "2026-10-01T10:00:00+08:00",
+    "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。"
+  }
+]

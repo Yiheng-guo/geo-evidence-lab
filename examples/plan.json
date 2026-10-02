@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "profile_hash": "b9a96620c289b323021c7d89eeb06b4567e54867074884185117bca600cca060",
+  "queries": [
+    {
+      "id": "q001",
+      "text": "小团队如何选择知识协作工具？"
+    },
+    {
+      "id": "q002",
+      "text": "协作工具的数据导出需要检查什么？"
+    },
+    {
+      "id": "q003",
+      "text": "怎样评估协作工具的迁移成本？"
+    }
+  ],
+  "collection_instructions": "Freeze this set before baseline collection. Record engine, mode, context, round and timestamp. Failed requests are unavailable, not negative observations.",
+  "source_status": "User-supplied claim URLs are unverified."
+}

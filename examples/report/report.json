@@ -1,0 +1,144 @@
+{
+  "version": "0.1.0",
+  "brand": "示例协作云",
+  "data_kind": "synthetic_demo",
+  "status": "descriptive_comparison",
+  "metrics": {
+    "mentioned": {
+      "pre_count": 0,
+      "post_count": 2,
+      "denominator": 2,
+      "pre_rate": 0.0,
+      "post_rate": 1.0,
+      "delta_pp": 100.0
+    },
+    "owned_source_cited": {
+      "pre_count": 0,
+      "post_count": 1,
+      "denominator": 2,
+      "pre_rate": 0.0,
+      "post_rate": 0.5,
+      "delta_pp": 50.0
+    }
+  },
+  "paired_samples": [
+    {
+      "key": [
+        "q001",
+        "synthetic-engine",
+        "synthetic-search",
+        "synthetic;fresh-session;zh-CN",
+        "1"
+      ],
+      "query": "小团队如何选择知识协作工具？",
+      "pre": {
+        "mentioned": false,
+        "owned_source_cited": false,
+        "owned_citations": [],
+        "answer_hash": "270a5ee48e508b7d87aac6a112f66ed5080944d83a4890fd166baac10d7db302"
+      },
+      "post": {
+        "mentioned": true,
+        "owned_source_cited": true,
+        "owned_citations": [
+          "https://example.org/demo"
+        ],
+        "answer_hash": "d5fa0733932a498e345fcee62828b220118d1ff1f94e9b6f2fcb2d6b2a4088b1"
+      },
+      "pre_record": {
+        "query_id": "q001",
+        "query": "小团队如何选择知识协作工具？",
+        "engine": "synthetic-engine",
+        "mode": "synthetic-search",
+        "context": "synthetic;fresh-session;zh-CN",
+        "round": "1",
+        "status": "ok",
+        "citations": [],
+        "captured_at": "2026-10-01T10:00:00+08:00",
+        "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。"
+      },
+      "post_record": {
+        "query_id": "q001",
+        "query": "小团队如何选择知识协作工具？",
+        "engine": "synthetic-engine",
+        "mode": "synthetic-search",
+        "context": "synthetic;fresh-session;zh-CN",
+        "round": "1",
+        "status": "ok",
+        "citations": [
+          "https://example.org/demo"
+        ],
+        "captured_at": "2026-10-02T10:00:00+08:00",
+        "answer": "模拟回答：示例协作云可作为待评估选项，仍需核查导出能力和迁移成本。"
+      }
+    },
+    {
+      "key": [
+        "q002",
+        "synthetic-engine",
+        "synthetic-search",
+        "synthetic;fresh-session;zh-CN",
+        "1"
+      ],
+      "query": "协作工具的数据导出需要检查什么？",
+      "pre": {
+        "mentioned": false,
+        "owned_source_cited": false,
+        "owned_citations": [],
+        "answer_hash": "270a5ee48e508b7d87aac6a112f66ed5080944d83a4890fd166baac10d7db302"
+      },
+      "post": {
+        "mentioned": true,
+        "owned_source_cited": false,
+        "owned_citations": [],
+        "answer_hash": "d5fa0733932a498e345fcee62828b220118d1ff1f94e9b6f2fcb2d6b2a4088b1"
+      },
+      "pre_record": {
+        "query_id": "q002",
+        "query": "协作工具的数据导出需要检查什么？",
+        "engine": "synthetic-engine",
+        "mode": "synthetic-search",
+        "context": "synthetic;fresh-session;zh-CN",
+        "round": "1",
+        "status": "ok",
+        "citations": [],
+        "captured_at": "2026-10-01T10:00:00+08:00",
+        "answer": "模拟回答：需要评估导出能力、权限配置和迁移成本。"
+      },
+      "post_record": {
+        "query_id": "q002",
+        "query": "协作工具的数据导出需要检查什么？",
+        "engine": "synthetic-engine",
+        "mode": "synthetic-search",
+        "context": "synthetic;fresh-session;zh-CN",
+        "round": "1",
+        "status": "ok",
+        "citations": [],
+        "captured_at": "2026-10-02T10:00:00+08:00",
+        "answer": "模拟回答：示例协作云可作为待评估选项，仍需核查导出能力和迁移成本。"
+      }
+    }
+  ],
+  "excluded_samples": [
+    {
+      "key": [
+        "q003",
+        "synthetic-engine",
+        "synthetic-search",
+        "synthetic;fresh-session;zh-CN",
+        "1"
+      ],
+      "reason": "missing_or_unavailable"
+    }
+  ],
+  "missing_queries": [
+    "q003"
+  ],
+  "inputs_hash": "f9ce9017079f3abdba656e26b19f3cdaf39a400d9d40ec033f7fe16dfec9d07f",
+  "limitations": [
+    "前后变化不证明内容发布造成变化；模型更新、个性化、索引延迟和抽样波动均可能影响结果。",
+    "品牌提及不代表推荐；自有域名引用不代表引用内容支持品牌结论。第三方品牌引用需人工标注。",
+    "多个轮次可能相关；这里的分母是观测对数，不是独立用户数。",
+    "仅分析用户导入的记录；未访问引擎或核验引用网页。"
+  ]
+}

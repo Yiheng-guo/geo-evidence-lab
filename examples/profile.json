@@ -1,0 +1,18 @@
+{
+  "brand": "示例协作云",
+  "aliases": [
+    "DemoCollab"
+  ],
+  "audience": "正在选团队协作工具的小型企业",
+  "offering": "团队知识和项目协作工具",
+  "owned_domains": [
+    "example.org"
+  ],
+  "claims": [],
+  "data_kind": "synthetic_demo",
+  "queries": [
+    "小团队如何选择知识协作工具？",
+    "协作工具的数据导出需要检查什么？",
+    "怎样评估协作工具的迁移成本？"
+  ]
+}
